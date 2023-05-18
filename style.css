@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    bottom: 0;
+    color: white;
+}
+body{
+    background-color: aqua;
+}
+/* main */
+.main{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0,0,0.7)url(images/bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+}
+.main .text{
+    padding-bottom: 2%;
+}
+.main .text h2,h3{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+.main h2{    
+    padding-top: 2rem;
+    font-family: 'Merriweather', serif;
+}
+.main h3{
+    padding-top: 1rem ;
+    font-family: 'Dancing Script', cursive;
+}
+.text .title{
+    text-align: center;
+    color: white;
+    font-size: 1.65rem;
+    padding-top: 1.2%;
+}
+.main .inner{
+    width: 1000px;
+    margin: auto;
+    padding-top: 2%;
+    font-family: 'Montserrat', sans-serif;
+    /* border: 2px white solid; */
+    display: flex;
+    justify-content: center;       /* used this to center the elements because used display flex for divs to be inline*/
+    color: white;
+}
+.col div{
+    width: 250px;
+    text-align: center;
+}
+.main .info{
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+.main .inner .info input{
+    width: 70%;
+    height: 50px;
+    background-color: white;
+    border-color: transparent;
+    border-radius: 7.5px;
+    text-align: center;
+    font-size: large;
+    color: black;
+    font-weight: bolder;
+}
+.col label{
+    font-weight: bold;
+}
+.col .foot{
+    text-align: center;
+    bottom: 0;
+    padding-top: 50%;
+}
+.foot h3,h4{
+    text-align: center;
+    color: white;
+}
+.foot h4{
+    font-size: 1rem;
+    font-weight: normal;
+}
